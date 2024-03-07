@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag CSS</title>
+    <style>
+        .flag {
+            height: 1080px;
+            width: 1920px;
+            background-color: blue;
+            position: relative; 
+        }
+        .flag > div {
+            height: 650px;
+            width: 1920px;
+            position: absolute;
+            margin-top: 220px;
+            background-color: white;
+        }
+        .flag > div > div {
+            height: 600px;
+            width: 1920px;
+            position: absolute;
+            margin-top: 25px;
+            background-color: red;
+        }
+        .flag > div > div > div {
+            height: 520px;
+            width: 520px;
+            border-radius: 520px;
+            position: absolute;
+            margin-top: 40px;
+            margin-left: 500px;
+            background-color: white;
+        }
+        .flag > div > div > div > svg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        .flag > div > div > div > svg > polygon {
+            fill: red; 
+            position: absolute;
+            margin-top: 10px;
+        }
+        h1{
+            text-align: center;
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div>
+            <div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <polygon points="12,2 15,9 22,9 16.5,14 19,22 12,17 5,22 7.5,14 2,9 9,9" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1>The flag of North Korea</h1>
+</body>
+</html>
+<!-- CREATED BY: JUDE ENRIQUE CAPANAS - BSIT 1 -->
